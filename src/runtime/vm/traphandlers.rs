@@ -358,22 +358,14 @@ mod call_thread_state {
 
         #[inline]
         pub(crate) unsafe fn push(&self) {
-            ms_std::println!("[Info] Invoke into push");
             assert!(self.prev.get().is_null());
-            ms_std::println!("[Info] before prev set: self: {:?}, self.prev: {:?}", self as *const CallThreadState, self.prev);
             self.prev.set(tls::raw::replace(self));
-            ms_std::println!("[Info] after prev set: self: {:?}, self.prev: {:?}", self as *const CallThreadState, self.prev);
         }
 
         #[inline]
         pub(crate) unsafe fn pop(&self) {
-            ms_std::println!("[Info] Invoke into pop");
-            ms_std::println!("[Info] before prev replace: self: {:?}, self.prev: {:?}", self as *const CallThreadState, self.prev);
             let prev = self.prev.replace(ptr::null());
-            ms_std::println!("[Info] after prev replace: self: {:?}, self.prev: {:?}, prev: {:?}", self as *const CallThreadState, self.prev, prev);
-
             let head = tls::raw::replace(prev);
-            ms_std::println!("[Info] after head replace: self: {:?}, head: {:?}", self as *const CallThreadState, head);
             // assert!(core::ptr::eq(head, self));
         }
     }

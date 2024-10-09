@@ -198,9 +198,6 @@ optional = true
 version = "1.209.1"
 optional = true
 
-[dependencies.ms_std]
-path = "../ms_std"
-
 [dev-dependencies.proptest]
 version = "1.0.0"
 
