@@ -1,0 +1,18 @@
+Writing generated file: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/settings.rs
+Writing generated file: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/types.rs
+Writing generated file: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/opcodes.rs
+Writing generated file: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/inst_builder.rs
+Writing generated file: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/settings-x86.rs
+Writing generated file: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/clif_opt.isle
+Writing generated file: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/clif_lower.isle
+Rebuilding /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/isle_opt.rs
+Writing ISLE-generated Rust code to /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/isle_opt.rs
+Rebuilding /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/isle_x64.rs
+Writing ISLE-generated Rust code to /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/isle_x64.rs
+Rebuilding /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/isle_aarch64.rs
+Writing ISLE-generated Rust code to /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/isle_aarch64.rs
+Rebuilding /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/isle_s390x.rs
+Writing ISLE-generated Rust code to /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/isle_s390x.rs
+Rebuilding /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/isle_riscv64.rs
+Writing ISLE-generated Rust code to /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/cranelift-codegen-1cb0da72a3c79f98/out/isle_riscv64.rs
+fatal: not a git repository (or any of the parent directories): .git

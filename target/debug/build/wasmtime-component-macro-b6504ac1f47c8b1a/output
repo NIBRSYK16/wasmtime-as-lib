@@ -1,0 +1,2 @@
+cargo:rerun-if-changed=build.rs
+cargo:rustc-env=DEBUG_OUTPUT_DIR=/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmtime-22.0.0/target/debug/build/wasmtime-component-macro-b6504ac1f47c8b1a/out
