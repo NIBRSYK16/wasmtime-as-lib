@@ -258,7 +258,7 @@
 //! seeing what can be enabled and disabled.
 //!
 //! [manifest]: https://github.com/bytecodealliance/wasmtime/blob/main/crates/wasmtime/Cargo.toml
-
+#![feature(offset_of)]
 #![deny(missing_docs)]
 #![doc(test(attr(deny(warnings))))]
 #![doc(test(attr(allow(dead_code, unused_variables, unused_mut))))]
